@@ -2,25 +2,3 @@ debug.camcorder.disablemeta=1
 ro.sf.hwrotation=180
 ro.sf.lcd_density=200
 ro.config.low_ram=true
-#ASCE1062 MAHDI-ROM PROJECT
-ro.ril.hsxpa=1
-ro.ril.hep=1
-ro.ril.enable.dtm=1
-ro.ril.hsdpa.category=10
-ro.ril.enable.a53=1
-ro.ril.enable.3g.prefix=1
-ro.ril.htcmaskw1.bitmask=4294967295
-ro.ril.htcmaskw1=14449
-ro.ril.hsupa.category=5
-ro.HOME_APP_ADJ=1
-wifi.supplicant_scan_interval=180
-pm.sleep_mode=1
-ro.ril.disable.power.collapse=0
-net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
-net.tcp.buffersize.wifi=4096,87380,256960,4096,16384,256960
-net.tcp.buffersize.umts=4096,87380,256960,4096,16384,256960
-net.tcp.buffersize.gprs=4096,87380,256960,4096,16384,256960
-net.tcp.buffersize.edge=4096,87380,256960,4096,16384,256960
-#all sensor off in sleep mode / TEST
-ro.ril.sensor.sleep.control=1
-#ASCE1062 MAHDI-ROM PROJECT TWEAKS
