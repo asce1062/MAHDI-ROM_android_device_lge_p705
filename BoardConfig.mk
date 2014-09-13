@@ -60,7 +60,3 @@ WITH_JIT	:= true
 ENABLE_JSC_JIT	:= true
 TARGET_WEBKIT_USE_MORE_MEMORY	:= true
 TARGET_FORCE_CPU_UPLOAD	:= true
-
-#Try to force baseband display!
-TARGET_USES_JELLYBEAN_BASEBAND := true
-TARGET_QCOM_DISPLAY_VARIANT := legacy
