@@ -16,7 +16,7 @@ TARGET_KERNEL_SOURCE := kernel/lge/msm7x27a-common
 
 TARGET_KERNEL_CONFIG := cyanogenmod_u0_nonfc_defconfig
 
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.8-sm
+#TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.8-sm
 
 TARGET_RECOVERY_FSTAB := device/lge/p705/recovery.fstab
 
