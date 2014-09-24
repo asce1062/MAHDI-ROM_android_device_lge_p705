@@ -51,8 +51,16 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     Trebuchet
 
-# We are Using libwebviewchromium for Web Rendering
+## Webkit
+PRODUCT_PACKAGES += \
+    libwebcore	
+
+# (classic webview provider)
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.webview.provider=classic
+
 ENABLE_WEBGL := true
+PRODUCT_PREBUILT_WEBVIEWCHROMIUM := yes
 TARGET_ARCH_LOWMEM := true
 JS_ENGINE	:= v8
 HTTP	:= chrome
@@ -60,3 +68,6 @@ WITH_JIT	:= true
 ENABLE_JSC_JIT	:= true
 TARGET_WEBKIT_USE_MORE_MEMORY	:= true
 TARGET_FORCE_CPU_UPLOAD	:= true
+
+#Try to force baseband display!
+TARGET_USES_JELLYBEAN_BASEBAND := true

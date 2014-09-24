@@ -1,5 +1,5 @@
 # Inherit some common mahdi stuff.
-$(call inherit-product, vendor/mahdi/configs/common.mk)
+#$(call inherit-product, vendor/mahdi/configs/common.mk)
 $(call inherit-product, vendor/mahdi/config/common_full_phone.mk)
 
 # Inherit device configuration
@@ -30,4 +30,4 @@ PRODUCT_PACKAGES += \
 
 # Copy device specific prebuilt files.
 PRODUCT_COPY_FILES += \
-    vendor/mahdi/prebuilt/bootanimations/BOOTANIMATION-800x480.zip:system/media/bootanimation.zip
+    vendor/mahdi/prebuilt/common/bootanimations/BOOTANIMATION-800x480.zip:system/media/bootanimation.zip
