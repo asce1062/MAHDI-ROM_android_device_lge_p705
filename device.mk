@@ -21,6 +21,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml
 
+# DalvikVM
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/bin/dalvikvm:system/bin/dalvikvm
+
 # Wifi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/wlan.ko:system/lib/modules/wlan.ko
